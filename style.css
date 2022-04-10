@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+}
+
+section {
+  /* background-color: orangered; */
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./hero.jpg");
+  background-size: cover;
+  color: #fff;
+}
+.hero {
+  width: 1200px;
+  position: absolute;
+  /* In a relation to the parent: */
+  left: 50%;
+  top: 50%;
+  /* In a relation to the element size: */
+  transform: translate(-50%, -50%);
+  /* background-color: violet; */
+}
+.hero-text-box {
+  width: 50%;
+  /* background-color: blue; */
+}
+.hero-text-box h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #fff;
+  display: block;
+  width: 55px;
+  height: 11px;
+  margin-top: 27px;
+}
