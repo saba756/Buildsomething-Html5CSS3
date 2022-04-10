@@ -7,22 +7,29 @@ html {
   font-family: "Rubik", sans-serif;
   color: #444;
 }
-
+/* *********************** */
+/* HERO SECTION */
+/* *********************** */
 section {
   /* background-color: orangered; */
   height: 100vh;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./hero.jpg");
+
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(157, 78, 235, 0.3),
+      rgba(230, 34, 178, 0.3)
+    ),
+    url("./images/banner.jpeg");
   background-size: cover;
   color: #fff;
 }
 .hero {
-  width: 1200px;
+  width: 1050px;
   position: absolute;
   /* In a relation to the parent: */
   left: 50%;
-  top: 50%;
+  top: 60%;
   /* In a relation to the element size: */
   transform: translate(-50%, -50%);
   /* background-color: violet; */
@@ -31,10 +38,11 @@ section {
   width: 50%;
   /* background-color: blue; */
 }
-.hero-text-box h1 {
+.heading {
   text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  font-size: 62px;
 }
 .btn {
   background-color: #fff;
