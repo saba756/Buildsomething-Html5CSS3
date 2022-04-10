@@ -10,15 +10,15 @@ html {
 /* *********************** */
 /* HERO SECTION */
 /* *********************** */
-section {
+.section-hero {
   /* background-color: orangered; */
-  height: 100vh;
+  height: 90vh;
   position: relative;
 
   background-image: linear-gradient(
       to right bottom,
       rgba(157, 78, 235, 0.3),
-      rgba(230, 34, 178, 0.3)
+      rgba(85, 13, 152, 0.3)
     ),
     url("./images/banner.jpeg");
   background-size: cover;
@@ -28,7 +28,7 @@ section {
   width: 1050px;
   position: absolute;
   /* In a relation to the parent: */
-  left: 50%;
+  left: 49%;
   top: 60%;
   /* In a relation to the element size: */
   transform: translate(-50%, -50%);
